@@ -1,10 +1,12 @@
 # data-analysis-python
 
-This repository contains instructional materials for teaching data analysis with Python.
+This repository contains instructional materials for learning data analysis for applications in the physical sciences. They are in the form of [Jupyter](https://jupyter-notebook.readthedocs.io/en/latest/) notebooks using the [Python](https://docs.python.org/3/tutorial/index.html) programming language. A suitable textbook to accompany these materials is [*Measurements and their Uncertainties*](http://www.oupcanada.com/catalog/9780199566334.html), by Hughes and Hase.
+
+These materials are a work in progress and I welcome feedback at <jsdodge@sfu.ca>.
 
 ![Curve-fitting, XKCD](https://imgs.xkcd.com/comics/curve_fitting.png)
 
-*Curve-fitting, by [XKCD](https://xkcd.com/2048/)*
+Image credit: *Curve-fitting*, by [XKCD](https://xkcd.com/2048/)
 
 ## How to use these materials
 To read, run, and modify the notebooks in this repository, you can try any of the following:
@@ -15,7 +17,7 @@ https://sfu.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https://gitlab.rcg
 * Copy the notebooks into the [Google Colab](https://colab.research.google.com) service.
 
 ## About
-These materials were written and tested in [Python](https://docs.python.org/3/tutorial/index.html) 3.6, including the [NumPy](https://docs.scipy.org/doc/numpy-1.15.0/user/index.html), [matplotlib](https://matplotlib.org/users/index.html), and [SciPy](https://docs.scipy.org/doc/scipy/reference/tutorial/index.html) packages. There are many more packages available for doing data analysis in Python, but these three include everything a practicing physicist needs to get started.
+These materials were written and tested in Python 3.6, including the [NumPy](https://docs.scipy.org/doc/numpy-1.15.0/user/index.html), [matplotlib](https://matplotlib.org/users/index.html), and [SciPy](https://docs.scipy.org/doc/scipy/reference/tutorial/index.html) packages. There are many more packages available for doing data analysis in Python, but these three include everything a practicing physicist needs to get started.
 
 ## License
 The notebook text is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See more at [Creative Commons](http://creativecommons.org/licenses/by-nc-nd/4.0/). The notebook code is open source under the [MIT License](https://opensource.org/licenses/MIT).
