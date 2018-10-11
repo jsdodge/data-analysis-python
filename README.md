@@ -2,6 +2,10 @@
 
 This repository contains instructional materials for teaching data analysis with Python.
 
+![Curve-fitting, XKCD](https://imgs.xkcd.com/comics/curve_fitting.png)
+
+*Curve-fitting, by [XKCD](https://xkcd.com/2048/)*
+
 ## How to use these materials
 To read, run, and modify the notebooks in this repository, you can try any of the following:
 * If you are an SFU student, follow [this link](
