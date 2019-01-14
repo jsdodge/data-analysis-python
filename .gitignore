@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+*~
+*-eps-converted-to.pdf
+*.aux
+*.bbl
+*.blg
+*.log
+*.synctex.gz
