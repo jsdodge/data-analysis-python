@@ -6,3 +6,7 @@
 *.blg
 *.log
 *.synctex.gz
+Lanczos3.dat
+Norris.dat
+download
+import-file-test.ipynb
