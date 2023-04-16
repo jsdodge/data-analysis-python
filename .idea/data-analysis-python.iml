@@ -5,7 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/notebooks/data/.ipynb_checkpoints" />
       <excludeFolder url="file://$MODULE_DIR$/notebooks/.ipynb_checkpoints" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.10 (data-analysis-python)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11 (pydata)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
