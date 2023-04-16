@@ -11,3 +11,11 @@ Lanczos3.dat
 Norris.dat
 download
 import-file-test.ipynb
+**/Untitled.ipynb
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf

@@ -1,0 +1,12 @@
+# Create the conda environment with the following statement:
+# conda env create -f environment.yml
+name: pydata
+channels:
+  - defaults
+dependencies:
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - python
+  - scipy
