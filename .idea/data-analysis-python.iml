@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/notebooks/data/.ipynb_checkpoints" />
       <excludeFolder url="file://$MODULE_DIR$/notebooks/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/student_feedback" />
     </content>
     <orderEntry type="jdk" jdkName="pydata" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
