@@ -12,7 +12,7 @@ Image credit: *Curve-fitting*, by [XKCD](https://xkcd.com/2048/)
 You should be able to read, run, and modify the notebooks in this repository following any one of the following methods. 
 
 If you are an SFU student, you will probably want to use Syzygy, which you can sign in to with your SFU Computing Account. [Syzygy](https://sfu.syzygy.ca/) is a cloud-based Jupyter notebook server hosted by the [Digital Research Alliance of Canada](https://alliancecan.ca/en). To upload the notebooks into your SFU Syzygy account: 
-* Use this [link](https://sfu.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https://gitlab.phys.sfu.ca/physcrs/course-material-phys233.git&branch=master), which should upload the contents of all the folders in the PHYS 233 repository directly to your syzygy account. Syzygy will prompt you to log in if you are not already logged in. You can also use this link to upload changes to the notebooks that occur during the course.
+* Use this [link](https://sfu.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https://github.com/jsdodge/data-analysis-python.git&branch=main), which should upload the contents of all the folders in the PHYS 233 repository directly to your syzygy account. Syzygy will prompt you to log in if you are not already logged in. You can also use this link to upload changes to the notebooks that occur during the course.
 * Or download the folder as a .zip file, unpack it into a folder, and upload the files to sfu.syzygy.ca.
 
 Within the Syzygy interface, open the `.ipynb` notebook files in the `notebooks` directory to read the documentation and run the code.
