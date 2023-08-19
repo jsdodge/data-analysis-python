@@ -1,22 +1,26 @@
+# From macOS.gitignore
 .DS_Store
-.ipynb_checkpoints
-*~
-*-eps-converted-to.pdf
-*.aux
-*.bbl
-*.blg
-*.log
-*.synctex.gz
-Lanczos3.dat
-Norris.dat
-download
-import-file-test.ipynb
-**/Untitled.ipynb
-student_feedback
 
+# From Emacs.gitignore
+*~
+
+# From JupyterNotebooks.gitignore
+.ipynb_checkpoints
+
+# From JetBrains.gitignore
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+
+# Local
+Lanczos3.dat
+Norris.dat
+download
+import-file-test.ipynb
+**/Untitled.ipynb
+student_feedback
+**/www.itl.nist.gov/
+mindevfit.eps

@@ -4,6 +4,7 @@ name: pydata
 channels:
   - defaults
 dependencies:
+  - jupyter
   - jupyterlab
   - matplotlib
   - notebook
