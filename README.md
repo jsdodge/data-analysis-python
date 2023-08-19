@@ -1,6 +1,6 @@
 # Data analysis with Python
 
-This repository contains instructional materials for learning data analysis for applications in the physical sciences. They are in the form of [Jupyter](https://jupyter-notebook.readthedocs.io/en/latest/) notebooks using the [Python](https://docs.python.org/3/tutorial/index.html) programming language. A suitable textbook to accompany these materials is [*Measurements and their Uncertainties*](http://www.oupcanada.com/catalog/9780199566334.html), by Hughes and Hase.
+This repository contains instructional materials for learning data analysis for applications in the physical sciences. They are in the form of [Jupyter](https://jupyter-notebook.readthedocs.io/en/latest/) notebooks using the [Python](https://docs.python.org/3/tutorial/index.html) programming language. A suitable textbook to accompany these materials is [*Measurements and their Uncertainties*](https://www.oupcanada.com/catalog/9780199566334.html), by Hughes and Hase.
 
 These materials are a work in progress and I welcome feedback at [jsdodge@sfu.ca](mailto:jsdodge@sfu.ca).
 
