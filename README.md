@@ -26,4 +26,4 @@ Or you can copy the notebooks into the [Google Colab](https://colab.research.goo
 These materials were written and tested in Python 3.7, including the [NumPy](https://docs.scipy.org/doc/numpy/reference/index.html) (1.17), [matplotlib](https://matplotlib.org/users/index.html) (3.1), and [SciPy](https://docs.scipy.org/doc/scipy/reference/tutorial/index.html) (1.3) packages. There are many more packages available for doing data analysis in Python, but these three include everything a practicing physicist needs to get started.
 
 ## License
-The notebook text is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See more at [Creative Commons](http://creativecommons.org/licenses/by-nc-nd/4.0/). The notebook code is open source under the [MIT License](https://opensource.org/licenses/MIT).
+The notebook text is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See more at [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/4.0/). The notebook code is open source under the [MIT License](https://opensource.org/licenses/MIT).
