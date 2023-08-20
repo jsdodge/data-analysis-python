@@ -90,6 +90,8 @@ skip-string-normalization = true
 [tool.ruff]
 target-version = "py310"
 line-length = 120
+exclude = ["notebooks/scratch/*",
+]
 select = [
   "A",
   "ARG",
@@ -126,6 +128,14 @@ ignore = [
   "S105", "S106", "S107",
   # Ignore complexity
   "C901", "PLR0911", "PLR0912", "PLR0913", "PLR0915",
+  # Ignore print statements
+  "T201",
+  # Ignore "useless expressions" in NB 0.0
+  "B018",
+  # Ignore single quotes in NB 0.0
+  "Q000",
+  # Ignore imports that are not at the top of NB 1.0, NB 2.0, NB 5.1, NB 6.0, NB 7.0
+  "E402",
 ]
 unfixable = [
   # Don't touch unused imports
