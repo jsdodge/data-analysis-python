@@ -60,6 +60,9 @@ all = [
   "fmt",
 ]
 
+[tool.nbqa.exclude]
+ruff = "notebooks/scratch"
+
 [tool.black]
 target-version = ["py310"]
 line-length = 120
@@ -106,9 +109,7 @@ ignore = [
   "C901", "PLR0911", "PLR0912", "PLR0913", "PLR0915",
   # Ignore print statements
   "T201",
-  # Ignore single quotes in NB 0.0
-  "Q000",
-  # Ignore imports that are not at the top of NB 1.0, NB 2.0, NB 5.1, NB 6.0, NB 7.0
+  # Ignore imports that are not at the top
   "E402",
 ]
 unfixable = [
@@ -116,12 +117,12 @@ unfixable = [
   "F401",
 ]
 
+[tool.ruff.per-file-ignores]
+# Ignore "useless expressions" in NB 0.0
+"**/0.0-Introduction-to-Python*" = ["B018", "Q000"]
+
 [tool.ruff.isort]
 known-first-party = ["data-analysis-python"]
 
 [tool.ruff.flake8-tidy-imports]
 ban-relative-imports = "all"
-
-[tool.ruff.per-file-ignores]
-# Ignore "useless expressions" in NB 0.0
-"notebooks/0.0-Introduction-to-Python.ipynb" = ["B018"]
