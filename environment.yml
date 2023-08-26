@@ -2,7 +2,7 @@
 # conda env create -f environment.yml
 name: pydata
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - jupyter
   - jupyterlab
