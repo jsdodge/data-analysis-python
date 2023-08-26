@@ -6,8 +6,8 @@ channels:
 dependencies:
   - jupyter
   - jupyterlab
-  - matplotlib
+  - matplotlib=3.7
   - notebook
-  - numpy
-  - python
-  - scipy
+  - numpy=1.23
+  - python=3.10
+  - scipy=1.10
