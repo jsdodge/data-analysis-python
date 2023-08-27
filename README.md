@@ -13,12 +13,12 @@ You should be able to read, run, and modify the notebooks in this repository fol
 ### Syzygy
 [![Static Badge](https://img.shields.io/badge/Open_in-SyZyGy-orange)](https://sfu.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjsdodge%2Fdata-analysis-python.git&urlpath=lab%2Ftree%2Fdata-analysis-python.git%2F&branch=main)
 
-If you are an SFU student, you will probably want to use Syzygy, which you can sign in to with your SFU Computing Account. [Syzygy](https://sfu.syzygy.ca/) is a cloud-based Jupyter notebook server hosted by the [Digital Research Alliance of Canada](https://alliancecan.ca/en). Select the icon above to pull the notebooks into your SFU Syzygy account. Syzygy will prompt you to log in if you are not already logged in. You can also use this link to upload changes to the notebooks that occur during the course. You may also upload files to Syzygy from a local desktop computer.
+If you are an SFU student, you will probably want to use Syzygy, which you can sign in to with your SFU Computing Account. [Syzygy](https://sfu.syzygy.ca/) is a cloud-based [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) server hosted by the [Digital Research Alliance of Canada](https://alliancecan.ca/en). Select the icon above to pull the notebooks into your SFU Syzygy account. Syzygy will prompt you to log in if you are not already logged in. You can also use this link to upload changes to the notebooks that occur during the course. You may also upload files to Syzygy from a local desktop computer.
 
 Within the Syzygy interface, open the `.ipynb` notebook files in the `notebooks` directory to read the documentation and run the code.
 
 ### Anaconda
-If you prefer to work with the notebooks locally on your personal computer, install the [Anaconda Python distribution](https://www.anaconda.com/download), download the notebooks from [GitHub](https://github.com/jsdodge/data-analysis-python), and open the notebooks with the Jupyter notebook service in Anaconda Navigator.
+If you prefer to work with the notebooks locally on your personal computer, install the [Anaconda Python distribution](https://www.anaconda.com/download), download the notebooks from [GitHub](https://github.com/jsdodge/data-analysis-python), and open the notebooks with the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) application in [Anaconda Navigator](https://docs.anaconda.com/free/navigator/overview/#nav-home-page-overview).
 
 ### Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jsdodge/data-analysis-python/blob/main/)
