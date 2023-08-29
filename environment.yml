@@ -8,6 +8,6 @@ dependencies:
   - jupyterlab
   - matplotlib=3.7
   - notebook
-  - numpy=1.23
-  - python=3.10
-  - scipy=1.10
+  - numpy=1.24
+  - python=3.11
+  - scipy=1.11
