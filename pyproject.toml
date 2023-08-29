@@ -1,0 +1,134 @@
+[project]
+name = "data-analysis-python"
+dynamic = ["version"]
+description = 'iInstructional materials for learning data analysis in the physical sciences'
+readme = "README.md"
+requires-python = ">=3.8"
+license = ["MIT",
+  "CC-BY-4.0"
+]
+keywords = []
+authors = [
+  { name = "J. Steven Dodge", email = "jsdodge@sfu.ca" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Framework :: Jupyter",
+  "Intended Audience :: Education",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Education",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Topic :: Scientific/Engineering :: Physics",
+  "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = ["jupyter",
+  "jupyterlab",
+  "matplotlib",
+  "notebook",
+  "numpy",
+  "scipy",
+]
+
+[project.urls]
+Issues = "https://github.com/jsdodge/data-analysis-python/issues"
+Source = "https://github.com/jsdodge/data-analysis-python"
+
+[tool.hatch.version]
+path = "__about__.py"
+
+[tool.hatch.envs.default]
+
+#[[tool.hatch.envs.all.matrix]]
+#python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.lint]
+detached = true
+dependencies = [
+  "black>=23.1.0",
+  "mypy>=1.0.0",
+  "nbqa[toolchain]",
+  "ruff>=0.0.243",
+]
+[tool.hatch.envs.lint.scripts]
+typing = "nbqa mypy --ignore-missing-imports {args:notebooks}"
+style = "nbqa ruff {args:notebooks}"
+fmt = "nbqa black {args:notebooks}"
+all = [
+  "style",
+  "typing",
+  "fmt",
+]
+
+[tool.nbqa.exclude]
+ruff = "notebooks/scratch"
+
+[tool.black]
+target-version = ["py310"]
+line-length = 120
+skip-string-normalization = true
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+select = [
+  "A",
+  "ARG",
+  "B",
+  "C",
+  "DTZ",
+  "E",
+  "EM",
+  "F",
+  "FBT",
+  "I",
+  "ICN",
+  "ISC",
+  "N",
+  "PLC",
+  "PLE",
+  "PLR",
+  "PLW",
+  "Q",
+  "RUF",
+  "S",
+  "T",
+  "TID",
+  "UP",
+  "W",
+  "YTT",
+]
+ignore = [
+  # Allow non-abstract empty methods in abstract base classes
+  "B027",
+  # Allow boolean positional values in function calls, like `dict.get(... True)`
+  "FBT003",
+  # Ignore checks for possible passwords
+  "S105", "S106", "S107",
+  # Ignore complexity
+  "C901", "PLR0911", "PLR0912", "PLR0913", "PLR0915",
+  # Ignore print statements
+  "T201",
+  # Ignore imports that are not at the top
+  "E402",
+]
+unfixable = [
+  # Don't touch unused imports
+  "F401",
+]
+
+[tool.ruff.per-file-ignores]
+# Ignore "useless expressions" in NB 0.0
+"**/0.0-Introduction-to-Python*" = ["B018", "Q000"]
+
+[tool.ruff.isort]
+known-first-party = ["data-analysis-python"]
+
+[tool.ruff.flake8-tidy-imports]
+ban-relative-imports = "all"
