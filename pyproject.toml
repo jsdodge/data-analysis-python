@@ -41,7 +41,7 @@ Issues = "https://github.com/jsdodge/data-analysis-python/issues"
 Source = "https://github.com/jsdodge/data-analysis-python"
 
 [tool.hatch.version]
-path = "src/data-analysis-python/__about__.py"
+path = "__about__.py"
 
 [tool.hatch.envs.default]
 
