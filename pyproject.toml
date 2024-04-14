@@ -1,7 +1,7 @@
 [project]
 name = "data-analysis-python"
 dynamic = ["version"]
-description = 'iInstructional materials for learning data analysis in the physical sciences'
+description = 'Instructional materials for learning data analysis in the physical sciences'
 readme = "README.md"
 requires-python = ">=3.8"
 license = ["MIT",
