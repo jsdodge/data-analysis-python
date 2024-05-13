@@ -1,4 +1,5 @@
  [![GitHub release (with filter)](https://img.shields.io/github/v/release/jsdodge/data-analysis-python?style=social&label=data-analysis-python)](https://github.com/jsdodge/data-analysis-python)
+ [![DOI](https://zenodo.org/badge/628505130.svg)](https://zenodo.org/doi/10.5281/zenodo.11183054)
 # Data analysis with Python
 
 This repository contains instructional materials for learning data analysis for applications in the physical sciences. They are in the form of [Jupyter](https://jupyter-notebook.readthedocs.io/en/latest/) notebooks using the [Python](https://docs.python.org/3/tutorial/index.html) programming language. A suitable textbook to accompany these materials is [*Measurements and their Uncertainties*](https://www.oupcanada.com/catalog/9780199566334.html), by Hughes and Hase.
